@@ -43,3 +43,9 @@ python manage.py migrate --list
 - if there are some unchecked migrations, and you are SURE that your database is up to date with the models (which should be the case if you're on a v3.0.x version), then do
 
 python manage.py migrate --fake
+
+What's different in this branch?
+================================
+
+This branch is not stable, is not usable and released for public access. Here are some tries to bring Helio be part of Airesis (http://github.com/coorasse/Airesis).
+We will study and convert this code from Python to Ruby and we'll create Gem you can integrate in any Ruby On Rails application.
