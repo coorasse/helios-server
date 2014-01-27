@@ -26,7 +26,10 @@ NEEDS:
 -- easy_install webtest
 -- easy_install django-webtest
 
-GETTING SOUTH WORKING ON EXISTING INSTALL
+- PostgreSQL connector
+-- apt-get install python-psycopg2
+
+GETTIN SOUTH WORKING ON EXISTING INSTALL
 - as of Helios v3.0.4, we're using South to migrate data models
 - if you've already loaded the data model beforehand, you need to tell South that you've migrated appropriately
 - so, if your data model is up to date with the code, do
